@@ -10,6 +10,8 @@ It will delete all bases and regenerate content and database with seed
 
 Some examples of database content: 
 
+Make attention to the syntax of Gosip in our version it will only take on S !!!!!
+
 2.5.1 :003 > tp Gosip.all
   Gosip Load (0.8ms)  SELECT "gosips".* FROM "gosips"
 ID | TITLE                          | CONTENT                        | CREATED_AT              | UPDATED_AT              | USER_ID | TAG_ID

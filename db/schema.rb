@@ -29,11 +29,6 @@ ActiveRecord::Schema.define(version: 2020_04_30_160833) do
     t.index ["user_id"], name: "index_gosips_on_user_id"
   end
 
-  create_table "gosips_tags", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "gostags", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

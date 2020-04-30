@@ -22,7 +22,7 @@ gosip_array = []
 end
 
 10.times do |i|
-  city = City.create(name: city_id[i], zip_code: zip_code[i])
+  city = City.create(name: Faker::Address.city, zip_code: zip_code[i])
   city_array[i] = city
   tag = Tag.create(title: Faker::Superhero.descriptor)
   puts "create city #{i}"
