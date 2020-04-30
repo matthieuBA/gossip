@@ -30,7 +30,6 @@ end
 puts "END OF CITIES"
 
 10.times do |i|
-  #city_rand = Faker::Address.city
   x = rand(1..2)
   x.times do
     puts "create user #{i}"
